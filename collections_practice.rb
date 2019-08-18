@@ -42,9 +42,7 @@ end
 
 def sum_array(arr)
   sum = 0
-  arr.inject do |num|
-    sum += num
-  end
+  arr.inject { |sum, num| sum + num }
 end
 
 def add_s(arr)
