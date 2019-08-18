@@ -47,7 +47,7 @@ end
 
 def add_s(arr)
   arr.each_with_index.collect do |word, i|
-    unless word[i]
+    if word[1] == 
       word + "s"
     end
   end
