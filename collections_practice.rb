@@ -33,7 +33,7 @@ def kesha_maker(arr)
 end
 
 def find_a(arr)
-  arr.each do |string|
+  arr.all? do |string|
     if string[0] == "a"
       string
     end
