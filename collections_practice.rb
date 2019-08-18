@@ -48,9 +48,9 @@ end
 def add_s(arr)
   arr.collect do |word|
     if arr[1] == word
-      return word
+      word
     else 
-      return word + 's'
+      word + 's'
     end
   end
 end
