@@ -42,7 +42,7 @@ end
 
 def sum_array(arr)
   sum = 0
-  arr.each.inject do |num|
+  arr.inject do |num|
     sum += num
   end
 end
